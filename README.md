@@ -1,2 +1,0 @@
-# Restarants
-Created with CodeSandbox
