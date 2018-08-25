@@ -8,8 +8,6 @@ class RestaurantPage extends React.Component {
     return (
       <div>
         <Restaurant1 />
-        <Restaurant2 />
-        <Restaurant3 />
       </div>
     );
   }

@@ -4,7 +4,7 @@ class Profile extends React.Component {
   render() {
     return (
       <div>
-        <h1>in profile component</h1>
+        <img name="restaurant1" src={this.props.url} alt="" />
       </div>
     );
   }

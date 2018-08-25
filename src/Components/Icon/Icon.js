@@ -1,15 +1,14 @@
 import React from "react";
 import "./Icon.css";
+import { Link } from "react-router-dom";
 
 class Icon extends React.Component {
   render() {
     return (
       <div>
-        <img
-          className="icon"
-          src="https://images.desimartini.com/media/external/55575-_828cae7c-5a46-11e7-9d38-39c470df081e.jpg"
-          alt="Thangabali"
-        />
+        <Link to="restaurant1">
+          <img className="icon" src={this.props.img} alt="Thangabali" />
+        </Link>
       </div>
     );
   }

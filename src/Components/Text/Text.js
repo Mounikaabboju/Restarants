@@ -4,7 +4,7 @@ class Text extends React.Component {
   render() {
     return (
       <div>
-        <h2> Thangabali Restaurant</h2>
+        <h2> {this.props.resName}</h2>
       </div>
     );
   }
